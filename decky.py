@@ -273,7 +273,7 @@ class Helper:
 			action="store_true", default=False,
 			help="show available MIDI ports to choose from")
 		parser.add_option("-f", "--file", dest="mapFile",
-			help="use keymappings in MAP_FILE (will look in ",
+			help="use keymappings in MAP_FILE (will look in keymaps/)",
 			metavar="MAP_FILE")
 		parser.add_option("-c", "--channel", dest="channel",
 			default=1,
