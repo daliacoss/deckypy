@@ -346,7 +346,7 @@ class Helper:
 			while True:
 				p = raw_input("Enter port index (leave blank to use '" + portName + "'): ")
 				try:
-					if (p == '') or (0 < int(p) < len(ports)): break
+					if (p == '') or (0 <= int(p) < len(ports)): break
 				except:
 					pass
 
