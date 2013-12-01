@@ -1,4 +1,4 @@
-deckypy
+deckyPy
 =======
 
 deckyPy is a simple, terminal-based virtual MIDI keyboard using the RtMidi library. 
