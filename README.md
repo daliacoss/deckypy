@@ -8,7 +8,8 @@ because the program reads input with a simple getc implementation, sustained key
 installation
 ------------
 1. download and install rtmidi (https://pypi.python.org/pypi/python-rtmidi)
-2. run decky.py using python 2.6 or 2.7
+2. install a virtual MIDI driver if you do not already have one. (osx 10.5+ comes with one built-in; for windows i recommend LoopBe1 or MIDI-OX.)
+3. run decky.py using python 2.6 or 2.7
 
 usage
 -----
