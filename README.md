@@ -14,7 +14,8 @@ installation
 usage
 -----
 `python decky.py [options]`  
-(wait for "CONTROLLER IS READY" status message before playing)
+(wait for "CONTROLLER IS READY" status message before playing)  
+**note:** if your system does not support virtual MIDI ports (i.e., if you're on windows), you must run deckyPy using the --showports/-s option.
 
 use -h flag for list of options  
 refer to keymaps/sample.py for the built-in keymap
